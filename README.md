@@ -28,28 +28,24 @@ Make sure you have Python installed. Then, install the required packages:
 pip install numpy scikit-learn opencv-python matplotlib
 Preprocess the images
 
-📊 Model Evaluation
+## 📊 Model Evaluation
+
 Performance is measured using:
 
-Accuracy
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-Score**
 
-Precision
+Imbalanced classification techniques such as **data augmentation** and **class weighting** were applied.
 
-Recall
+---
 
-F1-Score
+## ✅ Features Implemented
 
-Imbalanced classification techniques such as data augmentation and class weighting were applied.
-
-✅ Features Implemented
-Image Preprocessing (Normalization, Resizing)
-
-Feature Extraction (Low-Level and Deep Features)
-
-Dimensionality Reduction (PCA)
-
-Model Training & Evaluation (SVM, KNN, etc.)
-
-Confusion Matrix Visualization
-
-Imbalance Handling
+- **Image Preprocessing** (Normalization, Resizing)
+- **Feature Extraction** (Low-Level and Deep Features)
+- **Dimensionality Reduction** (PCA)
+- **Model Training & Evaluation** (SVM, KNN, etc.)
+- **Confusion Matrix Visualization**
+- **Imbalance Handling**
