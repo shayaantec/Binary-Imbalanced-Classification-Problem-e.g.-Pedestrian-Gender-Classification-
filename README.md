@@ -57,5 +57,5 @@ Imbalanced classification techniques such as **data augmentation** and **class w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Binary-Imbalanced-Classification-Problem
+   git clone https://github.com/shayaantec/Binary-Imbalanced-Classification-Problem
    cd Binary-Imbalanced-Classification-Problem
