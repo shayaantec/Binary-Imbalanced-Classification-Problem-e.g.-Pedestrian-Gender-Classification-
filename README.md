@@ -26,3 +26,58 @@ Make sure you have Python installed. Then, install the required packages:
 
 ```bash
 pip install numpy scikit-learn opencv-python matplotlib
+Preprocess the images
+
+bash
+Copy
+Edit
+python data_preprocessing.py
+Extract Features
+
+bash
+Copy
+Edit
+python low_level.py
+python high_level.py
+Reduce Dimensionality
+
+bash
+Copy
+Edit
+python pca.py
+Train and Evaluate Classifier
+
+bash
+Copy
+Edit
+python classification.py
+View the Confusion Matrix
+
+Open the confusion_matrix.png file to analyze model performance visually.
+
+📊 Model Evaluation
+Performance is measured using:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+Imbalanced classification techniques such as data augmentation and class weighting were applied.
+
+✅ Features Implemented
+Image Preprocessing (Normalization, Resizing)
+
+Feature Extraction (Low-Level and Deep Features)
+
+Dimensionality Reduction (PCA)
+
+Model Training & Evaluation (SVM, KNN, etc.)
+
+Confusion Matrix Visualization
+
+Imbalance Handling
+
