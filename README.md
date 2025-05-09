@@ -1,32 +1,33 @@
 # 🧠 Binary Imbalanced Classification: Pedestrian Gender Classification
 
-This project addresses the challenge of **binary classification on an imbalanced dataset**, specifically for classifying the **gender of pedestrians** based on visual features. Various techniques are used including data augmentation, low- and high-level feature extraction, dimensionality reduction, and multiple classification models.
+This project tackles the challenge of classifying pedestrian gender from images under an imbalanced dataset scenario. It implements various preprocessing, feature extraction, and machine learning techniques to improve performance.
 
 ---
 
 ## 📁 Project Structure
 
-| File Name              | Description                                                                 |
-|------------------------|-----------------------------------------------------------------------------|
-| `augmented.py`         | Applies data augmentation techniques to balance the dataset                 |
-| `classification.py`    | Performs model training, testing, and evaluation using ML classifiers       |
-| `confusion_matrix.png` | Visual output showing model performance                                     |
-| `data_preprocessing.py`| Handles preprocessing like normalization and image resizing                 |
-| `high_level.py`        | Extracts high-level features using pretrained deep learning models          |
-| `low_level.py`         | Extracts low-level features such as HOG and color histograms                |
-| `pca.py`               | Applies Principal Component Analysis (PCA) for dimensionality reduction     |
-| `labels.npy`           | Contains labels (genders) for each pedestrian image                         |
-| `reduced_features.npy` | Stores PCA-reduced features to be used in training                         |
+- `augmented.py` – Handles data augmentation to balance the dataset.
+- `classification.py` – Trains and evaluates classifiers.
+- `confusion_matrix.png` – Visual representation of model performance.
+- `data_preprocessing.py` – Normalization and resizing of images.
+- `high_level.py` – Extraction of high-level (deep) features.
+- `labels.npy` – Numpy array storing image labels.
+- `low_level.py` – Extraction of handcrafted low-level features.
+- `pca.py` – Dimensionality reduction using PCA.
+- `reduced_features.npy` – Features after PCA transformation.
 
 ---
 
-## ⚙️ Installation & Requirements
+## ⚙️ Technologies Used
 
-Make sure you have Python installed. Then, install the required packages:
+- Python
+- NumPy
+- OpenCV
+- Scikit-learn
+- Matplotlib
+- Pandas
 
-```bash
-pip install numpy scikit-learn opencv-python matplotlib
-Preprocess the images
+---
 
 ## 📊 Model Evaluation
 
@@ -49,3 +50,12 @@ Imbalanced classification techniques such as **data augmentation** and **class w
 - **Model Training & Evaluation** (SVM, KNN, etc.)
 - **Confusion Matrix Visualization**
 - **Imbalance Handling**
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Binary-Imbalanced-Classification-Problem
+   cd Binary-Imbalanced-Classification-Problem
